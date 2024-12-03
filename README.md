@@ -53,3 +53,8 @@ While the honeypot is listenning, test it by launching an ssh attack locally:
 Start by running some linux commands, here's a sample:
 
 ![SSH Honeypot Workflow](__pycache__/screen%209.png)
+
+## About
+
+This tool was developed at the TICLab Laboratory at the International University of Rabat.
+
