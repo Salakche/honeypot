@@ -38,3 +38,6 @@ Setup your libraries and API key, Please visit [here](https://console.groq.com/k
 ## Usage
 Launch the honeypot with the main script:
 
+```
+~$ python3 main.py 
+```
