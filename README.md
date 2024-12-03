@@ -41,4 +41,4 @@ Launch the honeypot with the main script:
 ```
 ~$ python3 main.py 
 ```
-!(/screen 8.png)
+![](/screen 8.png)
