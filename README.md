@@ -41,4 +41,5 @@ Launch the honeypot with the main script:
 ```
 ~$ python3 main.py 
 ```
-![SSH Honeypot Workflow](__pycache__/screen 8.png)
+![SSH Honeypot Workflow](__pycache__/screen%208.png)
+
