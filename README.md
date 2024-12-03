@@ -41,4 +41,4 @@ Launch the honeypot with the main script:
 ```
 ~$ python3 main.py 
 ```
-![test](screen 8.png)
+![test](__pycache__/screen 8.png)
