@@ -13,7 +13,7 @@ import tempfile
 def initialize_llm():
     global client, identity, prompt, messages
 
-    client = Groq(api_key="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",)
+    client = Groq(api_key=os.environ.get("GROQ_API_KEY"),)
     
     with open('personalitySSH.yml', 'r', encoding="utf-8") as file:
         identity = yaml.safe_load(file)
