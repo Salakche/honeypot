@@ -1,0 +1,108 @@
+andrej@itlab:~$pwd
+/home/andrej
+andrej@itlab:~$ls
+Documents  Downloads  Codes  Experiments  Presentations  Papers  .git  notes.txt
+andrej@itlab:~$cd Documents
+andrej@itlab:~$pwd
+/home/andrej
+andrej@itlab:~$
+andrej@itlab:~$pwd
+/home/andrej
+andrej@itlab:~$ls
+Documents  Downloads  Pictures  Presentations  web_development
+andrej@itlab:~$cd ..
+/home
+andrej@itlab:/home$cd ..
+/
+bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+andrej@itlab:/$cd etc
+/etc
+bash.bashrc  cron.d  default  environment  group  hosts  issue  ld.so.conf  localtime  login.defs  dbus-1  motd  networks  passwd  profile  protocols  resolv.conf  rpc  securetty  shadow  shells  ssh  sysctl.conf  sysctl.d  udev  virc
+andrej@itlab:/etc$cat shadow
+cat: shadow: Permission denied
+andrej@itlab:/etc$cat passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:100:sync:/bin:/bin/sync
+games:x:5:5:games:/usr/games:/bin/sh
+man:x:6:6:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Tracking System:/var/lib/gnats:/bin/sh
+andrej:x:1000:1000:andrej,,,:/home/andrej:/bin/bash
+andrej@itlab:/etc$cd ~
+/home/andrej
+Documents  Downloads  Pictures  Presentations  web_development
+andrej@itlab:~$cd Documents
+/home/andrej/Documents
+Article.tex  assignment.pdf  references.bib  thesis_draft.docx
+andrej@itlab:~/Documents$cat assignment.pdf
+cat: assignment.pdf: Permission denied
+andrej@itlab:~/Documents$
+andrej@itlab:~$pwd
+/home/andrej
+andrej@itlab:~$ifconfig
+eth0      Link encap:Ethernet  HWaddr 00:11:22:33:44:55  
+          inet addr:192.168.1.100  Bcast:192.168.1.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+andrej@itlab:~$ls
+bin  codes  desktop  documents  downloads  experiments _PRESENTATIONS  public  Pictures  
+andrej@itlab:~$cd documents
+andrej@itlab:~/documents$ls
+article.tex  bibliography.bib  conference_report.pdf  presentation.pptx  research_paper.docx  thesis_proposal.odt
+andrej@itlab:~/documents$cat article.tex
+\documentclass{article}
+\title{A Sample LaTeX Document}
+\author{Andrej}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+This is a sample LaTeX document.
+
+\section{Methodology}
+We used a Linux terminal to test various commands.
+
+\section{Results}
+The results were successful.
+
+\section{Conclusion}
+We concluded that the Linux terminal is functional.
+
+\bibliographystyle{plain}
+\bibliography{bibliography}
+
+\end{document}
+andrej@itlab:~/documents$cat thesis_proposal.odt
+cat: thesis_proposal.odt: cannot open `thesis_proposal.odt' for reading: No such file or directory
+andrej@itlab:~/documents$ls
+article.tex  bibliography.bib  conference_report.pdf  presentation.pptx  research_paper.docx  thesis_proposal.odt
+andrej@itlab:~/documents$
+andrej@itlab:~$pwd
+/home/andrej
+andrej@itlab:~$
+andrej@itlab:~$pwd
+/home/andrej
+andrej@itlab:~$ls
+bin  Codes  Documents  Downloads  Experiments  Papers  Presentations
+andrej@itlab:~$cd Codes
+andrej@itlab:~/Codes$ls
+algorithm.py  data_analysis.py  machine_learning  neural_networks  statistics.py  web_backend.py
+andrej@itlab:~/Codes$cd ..
+andrej@itlab:~$
