@@ -41,18 +41,18 @@ Run the honeypot with the main script:
 ```
 ~$ python3 main.py 
 ```
-![SSH Honeypot Workflow](__pycache__/screen%208.png)
+![SSH Honeypot](__pycache__/screen%208.png)
 
 While the honeypot is listenning, test it by launching an ssh attack locally:
 
 ```
 ~$ ssh -p 2222 root@<your-ip-address>
 ```
-![SSH Honeypot Workflow](__pycache__/screen%205.png)
+![SSH Honeypot](__pycache__/screen%205.png)
 
 Start by running some linux commands, here's a sample:
 
-![SSH Honeypot Workflow](__pycache__/screen%209.png)
+![SSH Honeypot](__pycache__/screen%209.png)
 
 ## About
 
