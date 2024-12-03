@@ -24,7 +24,7 @@ All interactions, including commands and generated responses, are logged into fi
 
 ## Requirements
 - Python 3.8+
-- Libraries: `Paramiko`, `socket`, `threading`, `os`, `argparse`, `yaml`
+- Libraries: `Paramiko`, `socket`, `threading`, `Groq`, `os`, `argparse`, `yaml`
 
 ## Setup 
 Setup your libraries and API key, Please visit [here](https://console.groq.com/keys) to create an API Key:
